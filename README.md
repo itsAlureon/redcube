@@ -1,8 +1,6 @@
 <!-- Project Banner -->
 <p align="center">
-
-  <img width="720" height="360" alt="redcube_banner" src="https://github.com/user-attachments/assets/29d64173-ff4c-438d-a719-8b223e72db07" />
-
+<img width="1173" height="431" alt="redcube_banner" src="https://github.com/user-attachments/assets/7f01b260-eac5-4716-b06b-413c7a01ad53" />
 </p>
 
 <h1 align="center">RedCube</h1>
