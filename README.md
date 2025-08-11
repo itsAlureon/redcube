@@ -20,15 +20,55 @@ The goal of this project is to bring awareness to the power of AI to help resear
 
 ---
 
-## Contribute
-**Clone the repository:**
+## Project Structure
+
+```
+redcube/
+├── src/
+│   ├── components/
+│   │   ├── RedCube.tsx      # 3D spinning cube component
+│   │   ├── Scene.tsx        # Three.js scene setup
+│   │   ├── Navigation.tsx   # Navigation bar with mobile menu
+│   │   ├── Hero.tsx         # Main hero section
+│   │   └── LoadingSpinner.tsx # Loading state component
+│   ├── App.tsx              # Main app component
+│   ├── main.tsx             # React entry point
+│   └── index.css            # Global styles
+├── public/                  # Static assets
+├── index.html               # HTML template
+├── tailwind.config.js       # Tailwind configuration
+├── vite.config.ts           # Vite configuration
+└── package.json             # Dependencies and scripts
+```
+
+---
+## Local Installation
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/itsalureon/redcube.git
 cd redcube
 ```
-
+**2. Install dependencies:**
+```bash
+npm install
+```
+**3. Start your developmment server:**
+```bash
+npm run dev
+```
+**4. Open your browser to your localhost link:**
+```bash
+http://localhost:3000
+```
 ---
 
+## Contribute
+1. Fork the redcube repository
+2. Create a branch
+3. Make any contributal changes
+4. Submit a pull request
+
+---
 ## License
 This project is licensed under the [MIT License](https://github.com/itsAlureon/redcube/blob/main/LICENSE)
 
