@@ -22,21 +22,16 @@ The goal of this project is to bring awareness to the power of AI to help resear
 
 ```
 redcube/
-├── src/
-│   ├── components/
-│   │   ├── RedCube.tsx      # 3D spinning cube component
-│   │   ├── Scene.tsx        # Three.js scene setup
-│   │   ├── Navigation.tsx   # Navigation bar with mobile menu
-│   │   ├── Hero.tsx         # Main hero section
-│   │   └── LoadingSpinner.tsx # Loading state component
-│   ├── App.tsx              # Main app component
-│   ├── main.tsx             # React entry point
-│   └── index.css            # Global styles
-├── public/                  # Static assets
-├── index.html               # HTML template
-├── tailwind.config.js       # Tailwind configuration
-├── vite.config.ts           # Vite configuration
-└── package.json             # Dependencies and scripts
+├── src/                  # Core React + TypeScript source
+│   ├── components/       # UI and layout components
+│   ├── pages/            # Codex content and section layouts
+│   └── styles/           # Global and utility styles
+├── public/               # Static assets (images, favicon, etc.)
+├── index.html            # Root HTML template
+├── package.json          # Project dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+├── vite.config.ts        # Vite build configuration
+└── README.md             # Project overview and usage
 ```
 
 ---
