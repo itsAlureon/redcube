@@ -5,7 +5,7 @@
 
 <h1 align="center">RedCube</h1>
 <p align="center">
-  <em>an open-source, public platform for red-teaming documentation and ai security research.</em>
+  <em>an open-source, public platform for ai security research and red-teaming documentation.</em>
 </p>
 
 ---
